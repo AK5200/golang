@@ -1,0 +1,32 @@
+https://gowebexamples.com/
+
+1 statically typed language
+
+2 go = string + garbage collection + concurrency
+
+3 programmer do not need to deallocate manually like in C.
+
+4 concurrent- as soon as there are some space/resourses freed go runs other task, whereas in parrellism task waits for complete memory required/ all resources to run the curretn task only then start executing.
+
+-OR-
+
+5 concurrency- idfferent task which are not dependent on each other can perform simultaneoulsy.
+
+6 lightweight- takes less memory
+
+7 fast compilation
+
+8 zero dependencies- does not rely on any external library or framework.
+
+9 initializing go outsite go folder -> terminal -> go mod init name
+name- any random name
+
+
+10 package main--> in go instead of classes we have packages and main package is a special package which is required to run any executable go program and func main () is the entry point of that
+
+
+11 in one folder directory there can only be one go package.
+
+
+12 first letter capital of variable or function, imlplies we will be using that func or var outside of the current package, else first character small. that is why Println, becaue it is used in other directories
+
