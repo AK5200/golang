@@ -17,8 +17,11 @@ func main() {
 	// %q -> quested string ["Anupam", "", "Anurag"]
 
 	// declaring at initilization time.
-
 	var names2 = [3]string{"Anupam"}
 	names2[1] = "Anurag"
+
+	names3 := [5]int{1, 2, 3}
+	fmt.Println(names3)
+	fmt.Println(len(names3))
 
 }
